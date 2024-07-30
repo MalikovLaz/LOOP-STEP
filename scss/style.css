@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.parent-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4979EE;
+  height: 100vh;
+}
+
+.item {
+  width: 380px;
+  background-color: #FFFFFF;
+}
+.item .head {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  text-transform: uppercase;
+  color: #BBBBBB;
+  fill: #BBBBBB;
+  font-size: 1em;
+  align-items: center;
+}
+
+h1 {
+  font-size: 0.81em;
+  font-weight: 200;
+  margin: 0;
+  color: black;
+}
+
+.section {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.section .section-item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  position: relative;
+}
+.section .section-item .direction {
+  padding-right: 15px;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 0.81em;
+  text-transform: uppercase;
+  color: black;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.81em;
+}
+
+p.meter {
+  color: #BBBBBB;
+}
+
+.img {
+  background: url(../img/streetview.jpg) no-repeat center center;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  width: 100%;
+  position: inherit;
+  height: 60px;
+  top: 0;
+  left: 15px;
+  background-size: cover;
+}
+
+.map {
+  position: relative;
+  box-shadow: 0px 10px 9px 0px rgba(0, 0, 0, 0.75);
+}
+
+.bg {
+  background: url(https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Google_maps_screenshot.png/300px-Google_maps_screenshot.png) no-repeat center center;
+  border-radius: 3px;
+  width: 105%;
+  position: absolute;
+  height: 160px;
+  top: 0;
+  left: -8px;
+  background-size: cover;
+  box-shadow: 0px 10px 9px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 3rem;
+}
+.bg .bg--blue {
+  background-color: rgba(73, 148, 238, 0.75);
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  position: absolute;
+  background-color: #4979EE;
+  border: 1px solid #4979EE;
+  border-radius: 5px;
+  display: flex;
+  color: white;
+  fill: white;
+  text-transform: uppercase;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 1.2em;
+  top: 140px;
+  left: 231px;
+  box-shadow: 0px 10px 9px 0px rgba(0, 0, 0, 0.75);
+}
+
+.row {
+  position: relative;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.2em;
+}
+
+.first {
+  padding-top: 30px;
+}
+
+.row > p {
+  flex: 1;
+}
+
+.row > .position {
+  flex: 2;
+}
+
+.row > p > span {
+  text-transform: uppercase;
+}
+
+.car > svg {
+  fill: white;
+}/*# sourceMappingURL=style.css.map */
